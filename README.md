@@ -1,16 +1,37 @@
 ### Hi there 👋
+I am iOS Developer
 
-<!--
-**RuslanDMdev/RuslanDMdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class IOSDeveloper {
+    
+    let name = "Ruslan Dalgaov"
+    let age = 21
+    let language = "Swift"
+    
+    var myStackDictionary: [String: [String]] = [
+        
+        "Principles":       ["OOP", "SOLID"]
+        "Layout":           ["UIKit", "AutoLayout", "SnapKit", "Storyboard"]
+        "Dependensies":     ["CocoaPods"]
+        "Storage":          ["Core Data", "UserDefaults", "FileManager", "Realm"]
+        "Networking":       ["URLSession", "JSON Parse", "REST API", "Firebase"]
+        "Multithreading":   ["GCD", "DQ's"]
+        "Arch. patterns":   ["MVC", "MVVM", "MVVM+C", "MVP", "MVP+C"]
+        "Struct. patterns": ["Delegate", "Singleton", "Factory", "Observer", "Facade"]
+        "GUI":              ["Git", "GitHub"]
+        "Graphics":         ["Figma", "Photoshop"]
+    ]
+    
+    var otherTechnologies: [String] = [
+        "MapKit",
+        "Push / Local Notifications",
+        "Multimedia (AVFoundation, Core Audio, AVKit)",
+        "Core Animation"
+    ]
+    
+    func sayHello() {
+        print("Hello stranger.")
+    }
+}
+    
+me = IOSDeveloper()
+me.sayHello()
